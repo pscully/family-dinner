@@ -14,6 +14,17 @@ h1 {
     color: --var(-c-main);
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    color: var(--c-main);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
 .button--positive {
     background: var(--c-positive);
     color: var(--c-light);
